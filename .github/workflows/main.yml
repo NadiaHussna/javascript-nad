@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: NadiaHussna/javascript-nad
+      uses: NadiaHussna/javascript-nad@main
       with:
         who-to-greet: 'Nadiaa'
     # Use the output from the `hello` step
